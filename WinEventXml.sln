@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinEventXml", "WinEventXml\WinEventXml.vcxproj", "{E3878D1B-9B6E-4EAD-8150-39A189FA7F47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3878D1B-9B6E-4EAD-8150-39A189FA7F47}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E3878D1B-9B6E-4EAD-8150-39A189FA7F47}.Debug|Win32.Build.0 = Debug|Win32
+		{E3878D1B-9B6E-4EAD-8150-39A189FA7F47}.Release|Win32.ActiveCfg = Release|Win32
+		{E3878D1B-9B6E-4EAD-8150-39A189FA7F47}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

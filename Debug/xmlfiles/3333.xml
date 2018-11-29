@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Events>
+		<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+			<System>
+				<Provider Name='Microsoft-Windows-DistributedCOM' Guid='{1B562E86-B7AA-4131-BADC-B6F3A001407E}' EventSourceName='DCOM'/>
+				<EventID Qualifiers='0'>10016</EventID>
+				<Version>0</Version>
+				<Level>2</Level>
+				<Task>0</Task>
+				<Opcode>0</Opcode>
+				<Keywords>0x8080000000000000</Keywords>
+				<TimeCreated SystemTime='2018-11-29T16:01:33.036181100Z'/>
+				<EventRecordID>10216</EventRecordID>
+				<Correlation/>
+				<Execution ProcessID='1056' ThreadID='9348'/>
+				<Channel>System</Channel>
+				<Computer>DESKTOP-NSOMGCA</Computer>
+				<Security UserID='S-1-5-19'/>
+			</System>
+			<EventData>
+				<Data Name='param1'>应用程序-特定</Data>
+				<Data Name='param2'>本地</Data>
+				<Data Name='param3'>激活</Data>
+				<Data Name='param4'>{D63B10C5-BB46-4990-A94F-E40B9D520160}</Data>
+				<Data Name='param5'>{9CA88EE3-ACB7-47C8-AFC4-AB702511C276}</Data>
+				<Data Name='param6'>NT AUTHORITY</Data>
+				<Data Name='param7'>LOCAL SERVICE</Data>
+				<Data Name='param8'>S-1-5-19</Data>
+				<Data Name='param9'>LocalHost (使用 LRPC)</Data>
+				<Data Name='param10'>不可用</Data>
+				<Data Name='param11'>不可用</Data></EventData>
+		</Event>
+</Events>
