@@ -16,6 +16,9 @@
     <Filter Include="TinyXml">
       <UniqueIdentifier>{94a765e2-aa15-466f-8f9d-1ba64890f024}</UniqueIdentifier>
     </Filter>
+    <Filter Include="WinEvent">
+      <UniqueIdentifier>{133741ed-5ea8-4417-a34c-2203eaf6ea92}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -32,6 +35,9 @@
     </ClInclude>
     <ClInclude Include="tinyxml\tinyxml.h">
       <Filter>TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="winevent\WinEventHandle.h">
+      <Filter>WinEvent</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +58,9 @@
     </ClCompile>
     <ClCompile Include="tinyxml\tinyxmlparser.cpp">
       <Filter>TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="winevent\WinEventHandle.cpp">
+      <Filter>WinEvent</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

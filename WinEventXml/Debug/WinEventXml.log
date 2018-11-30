@@ -1,18 +1,22 @@
-﻿生成启动时间为 11/30/2018 1:17:08 AM。
-     1>项目“D:\编程代码\WinEventXml\WinEventXml\WinEventXml.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 11/30/2018 5:38:45 PM。
+     1>项目“D:\TestCode\gitcode\tinyxml\WinEventXml\WinEventXml.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         H:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\WinEventXml.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt WinEventXml.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\TestCode\gitcode\tinyxml\WinEventXml /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _X86_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\WinEventXml.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt WinEventXml.cpp winevent\WinEventHandle.cpp
+         WinEventHandle.cpp
+     1>d:\testcode\gitcode\tinyxml\wineventxml\winevent\wineventhandle.cpp(72): warning C4018: “<”: 有符号/无符号不匹配
          WinEventXml.cpp
+         正在生成代码...
        Link:
-         H:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\编程代码\WinEventXml\Debug\WinEventXml.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\编程代码\WinEventXml\Debug\WinEventXml.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\编程代码\WinEventXml\Debug\WinEventXml.lib" /MACHINE:X86 Debug\stdafx.obj
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\TestCode\gitcode\tinyxml\Debug\WinEventXml.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\TestCode\gitcode\tinyxml\Debug\WinEventXml.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\TestCode\gitcode\tinyxml\Debug\WinEventXml.lib" /MACHINE:X86 Debug\stdafx.obj
          Debug\tinystr.obj
          Debug\tinyxml.obj
          Debug\tinyxmlerror.obj
          Debug\tinyxmlparser.obj
          Debug\WinEventXml.obj
-         WinEventXml.vcxproj -> D:\编程代码\WinEventXml\Debug\WinEventXml.exe
-     1>已完成生成项目“D:\编程代码\WinEventXml\WinEventXml\WinEventXml.vcxproj”(Build 个目标)的操作。
+         Debug\WinEventHandle.obj
+         WinEventXml.vcxproj -> D:\TestCode\gitcode\tinyxml\Debug\WinEventXml.exe
+     1>已完成生成项目“D:\TestCode\gitcode\tinyxml\WinEventXml\WinEventXml.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:01.33
+已用时间 00:00:01.28
